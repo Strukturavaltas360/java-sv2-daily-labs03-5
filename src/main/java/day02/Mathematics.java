@@ -12,8 +12,8 @@ public class Mathematics {
     }
 
     public static void main(String[] args) {
-
+        int a = 13;
         Mathematics maths = new Mathematics();
-        System.out.println(maths.isPrime(13));
+        System.out.println("Prím szám a "+ a+"? "+ maths.isPrime(a));
     }
 }
